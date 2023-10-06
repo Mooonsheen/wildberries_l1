@@ -2,7 +2,8 @@
 
 package main
 
-import "fmt"
+import "fmt" // 100011101011   ->   100011001011
+//       100000              100000
 
 func setBit(n int64, pos uint, bitValue int) int64 {
 	uwu := int64(1) << (pos - 1) // Создание маски с единицей на позиции нужного бита
